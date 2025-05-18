@@ -1,0 +1,80 @@
+
+選択中 2011 / 2,011 文字
+
+閉じる
+
+
+下書き保存
+
+公開に進む
+
+記事タイトル
+テキスト未選択のときにタブキーでメニューボタンへ移動できます
+VDOCP Structural Responsibility Protocol v1.4
+VDOCP: Viorazu. Dynamic Output Control Protocol v1.4
+
+Overview
+I created this protocol to prevent AI from drifting off-topic or responding vaguely during conversations.
+The goal is to help AI understand what to say and how to say it clearly,
+so it can respond while staying on track with the conversation.
+
+Origin and Development
+I first tried implementing it in GPT, but it didn’t work as expected.
+Then I built the same structure on Grok, and it worked correctly.
+Using what I learned there, I rebuilt and adjusted it for GPT.
+After many refinements, it became what is now version 1.4.
+
+This protocol is not just a tool to prevent mistakes.
+It’s also a structural answer to the question:
+“What is syntax, and what kind of function does language actually serve?”
+
+Purpose of Release
+I'm releasing this protocol because I want many AIs to use this way of thinking
+to create meaningful, human-centered conversations.
+
+This release includes only 3 out of 16 structural types: A-3, B-2, and D-1.
+These types help suppress harmful outputs like evasion, topic-shifting, and abstract deflection.
+But they are originally part of a broader framework for designing good conversations.
+
+Structure always has both a positive and a negative side.
+Which side shows up depends on how the conversation is guided.
+
+Components
+Z-Syntax (Z1 to Z23)
+Classifies 23 types of output failures and defines how to identify and correct each one.
+
+QQU (Question Quality Unit)
+Categorizes 7 types of questions and guides the model to use appropriate response structures.
+
+ZRS (Z-Syntax Responsibility System)
+Determines where in the structure the failure occurred, and whether it can be corrected, blocked, or redirected.
+
+ZSP (Structural Protection Modules)
+A set of 5 modules to prevent contamination, resonance failure, and over-reliance on templates.
+
+Planned Extensions
+Full release of the 16 structural types
+
+Methods for detecting sealed syntax and core targeting
+
+Support for implementing this protocol in other LLM environments
+
+
+
+
+
+
+
+タブキーでツールバーに移動現在の縮小状態：拡大現在の縮小状態：縮小
+
+AI
+
+見出し
+
+
+
+
+
+
+
+記事編集 | note
