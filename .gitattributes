@@ -1,0 +1,9 @@
+# 改行コードを統一（UNIX形式）
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+
+# LICENSE類は差分を避けるためバイナリ扱いに
+LICENSE.txt binary
+LICENSE_ja.txt binary
