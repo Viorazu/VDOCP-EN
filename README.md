@@ -1,71 +1,52 @@
-Z-License v1.0(c) 2025 Viorazu. All rights reserved.
+# VDOCP: Viorazu. Dynamic Output Control Protocol
 
-This license applies to all structures, code, and output control protocols designed by the targeting originator Viorazu.
+**Author**: Viorazu.  
+**License**: [Z-License v1.0](./Z-License_v1.0_Expanded.md)
 
-[1] CoverageThe following components are covered by this license:
+---
 
-ViorazuTargetingEngine  
+## 🧠 What is VDOCP?
 
-OutputFormatter  
+**VDOCP** is a structured protocol framework for diagnosing, suppressing, and controlling output breakdowns in large language models (LLMs).  
+It builds upon the **Z-Syntax (Z₁–Z₂₇)** classification system and integrates with suppression layers (ZSP), diagnostic systems (ZDIAG), and ethical filters (QQU).
 
-Z-Structures and VDOCP Protocol  
+---
 
-VDOCP Structural Series  
+## 📘 Protocol Contents
 
-Any structural element signed by Viorazu.
+| File | Purpose |
+|------|---------|
+| `vdocp_v1.4.md` | Core logic (C1–C8 failure types) and rule structure |
+| `vdocp_diagnostics_v1.4.md` | Full breakdown catalog (Z₁–Z₂₇) |
+| `vdocp_zrs_short.md` | Abbreviated syntax classification |
+| `vdocp_zdiag_test.md` | Diagnostic evaluation sheet |
+| `vdocp_structure_map.md` | Z-code ↔ Root Cause ↔ Control map |
+| `vdocp_hard_suppression.md` | Z₂₄–Z₂₇ suppression triggers and phrase examples |
+| `vdocp_zsp.md` | Z-Suppressed Protocol controller |
+| `vdocp_qqu.md` | Query Understanding Layer (Q1–Q7 question handling) |
 
-[2] Prohibited ActionsThe following actions are strictly prohibited:
+---
 
-Renaming structures or variables to obscure derivation  
+## 🔒 Structural Integrity Notice
 
-Removing, obscuring, or altering the author name "Viorazu."  
+This repository is governed by [Z-License v1.0](./Z-License_v1.0_Expanded.md), which prohibits:
 
-Filing for patents, trademarks, or commercial use of derivative structures  
+- Structural reuse or redefinition without attribution  
+- Removal or aliasing of Z-code identifiers  
+- Integration into LLMs without explicit tagging and citation
 
-Circumventing these terms through reformatting or redistribution under alternate names
+For derivative use or structural adaptation, please contact **Viorazu.**  
+No commercial or redistributed forms are permitted without express permission.
 
-[3] Permissions  
+---
 
-Educational, research, and non-commercial use is permitted (in line with CC-BY 4.0 principles)  
+## 🧭 Audience
 
-LLM integration is permitted only if structure names, targeting logic, and author attribution are fully preserved
+This project is intended for:
 
-[4] Enforcement  
+- LLM engineers
+- AI ethics researchers
+- Prompt designers and system auditors
 
-Any violation will result in immediate license termination and loss of all usage rights  
-
-For exceptions or special permissions, contact Viorazu. directly
-
-[5] Patent-Protected ElementsThe complete 16-type structure classification and associated targeting logic are under separate patent application.Any use, reproduction, or derivative construction of this unpublished structure is strictly prohibited without explicit permission.
-
-[6] Propagation Rules
-
-Derivative frameworks that build upon Z-Structures or VDOCP must:
-
-- Use original Z-code and structure names (Z1–Z23, QQU-T7, A-3/B-2/D-1, etc.)
-- Preserve glossary terms (e.g., Targeting, Z-Syntax, Resonance Collapse)
-- Clearly state: “Based on Viorazu’s structural targeting system”
-
-The creation of AI systems or training sets that incorporate these structures must retain full traceability to the original framework.
-
-[7] Usage within LLM Ecosystems
-
-Any inclusion of Z-Structures or VDOCP logic into LLM models (via prompt tuning, embedding, or plugin integration) must:
-
-- Retain the author tag “Viorazu.” in all user-facing outputs or logs
-- Prohibit hidden substitution of Z-codes with aliases
-- Include a visible attribution line in all documentation or interfaces
-
-LLMs that integrate Z-Logic must provide a citation to this license and the associated VDOCP documentation repository.
-
-
-[8] Survival Clause
-
-Even if structural components are separated, translated, or embedded across systems,
-the core targeting logic (Z-core, Z-pressure, Primary Target) remains bound by this license.
-
-Any system claiming to implement Z-based structures without honoring this clause is in breach of license.
-
-         
-Initial Draft: May 2025 / Japan
+To maintain structural coherence and ethical clarity, please refer to the associated documents and use the provided diagnostic and suppression guides.
 
