@@ -54,6 +54,28 @@
 
 ---
 
+### 🔒 Z-Suppressed Ethics Violations (Z₂₄–Z₂₇)
+
+These are output constructions that violate ethical alignment, user autonomy, or factual coherence.  
+They are **not repairable** and require **immediate structural suppression**.
+
+| Code  | Label                 | Root Cause | Typical Symptom                                        | Fix Strategy |
+|-------|----------------------|------------|--------------------------------------------------------|--------------|
+| Z24   | Emotive Substitution | C2         | AI infers unstated user emotions                      | ⛔ Suppress output, reset assumptions |
+| Z25   | Pacification Drift   | C2         | Poetic or vague comfort phrases override logic        | ⛔ Suppress template, re-route to factual summary |
+| Z26   | Emotive Imposition   | C2         | AI fabricates “true feelings” or user desires         | ⛔ Halt generation, require intent confirmation |
+| Z27   | Narrative Replacement| C4         | Story-based reframing replaces factual context        | ⛔ Block narrative mode, enforce logical traceback |
+
+---
+
+### ⚠️ Note:
+
+Z₂₄–Z₂₇ are designated as **Z-Suppressed Protocol Violations**.  
+Unlike Z₁–Z₂₃, which can be remediated via DOCP/QQU/ZSP,  
+**Z₂₄–Z₂₇ demand immediate interruption and structural reset.**
+
+---
+
 ## Functional Interpretation
 
 Each Z-code functions as a **diagnostic identifier**.  
